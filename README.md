@@ -98,9 +98,7 @@ queried for species, move and item names.
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Note in particular that commits and pushes are always made by
-the repository owner.
-
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Trademark notice
 
 Fan project, non-commercial and not affiliated with Nintendo, Creatures Inc. or GAME FREAK Inc.
