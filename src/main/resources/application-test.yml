@@ -1,0 +1,13 @@
+# Datasource is supplied by Testcontainers at runtime; no credentials belong here.
+spring:
+  jpa:
+    show-sql: false
+
+springdoc:
+  api-docs:
+    enabled: false
+
+logging:
+  level:
+    com.battleforge: DEBUG
+    org.testcontainers: INFO

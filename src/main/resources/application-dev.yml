@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${POSTGRES_HOST:localhost}:${POSTGRES_PORT:5432}/${POSTGRES_DB:battleforge}
+    username: ${POSTGRES_USER:battleforge}
+    password: ${POSTGRES_PASSWORD:battleforge}
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+  api-docs:
+    enabled: true
+
+logging:
+  level:
+    com.battleforge: DEBUG
+    org.hibernate.orm.jdbc.bind: TRACE
