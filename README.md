@@ -1,4 +1,4 @@
-# BattleForge API
+  # BattleForge API
 
 [![CI](https://github.com/JoaoVitorMcz/battleforge-api/actions/workflows/ci.yml/badge.svg)](https://github.com/JoaoVitorMcz/battleforge-api/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/JoaoVitorMcz/battleforge-api/branch/develop/graph/badge.svg)](https://codecov.io/gh/JoaoVitorMcz/battleforge-api)
@@ -93,7 +93,7 @@ privacy policy was accepted and when.
 - `DELETE /api/me` erases personal data and anonymises past battles, preserving history integrity
 
 **External services receiving personal data:** Sentry, in production only, receives stack traces
-(configured with `sendDefaultPii=false`). PokéAPI receives no user data whatsoever — it is only
+(configured with `sendDefaultPii=false`). PokéAPI receives no user data whatsoever it is only
 queried for species, move and item names.
 
 ## Contributing
